@@ -1,1 +1,101 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+
+$md-greensecuretheme: (
+    50 : #e7f8f1,
+    100 : #c2efdc,
+    200 : #9ae4c5,
+    300 : #71d9ad,
+    400 : #52d09c,
+    500 : #34c88a,
+    600 : #2fc282,
+    700 : #27bb77,
+    800 : #21b46d,
+    900 : #15a75a,
+    A100 : #daffea,
+    A200 : #a7ffcd,
+    A400 : #74ffb1,
+    A700 : #5affa2,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+$md-mcgpalette0: (
+    50 : #fff7e7,
+    100 : #feebc4,
+    200 : #fede9d,
+    300 : #fed075,
+    400 : #fdc658,
+    500 : #fdbc3a,
+    600 : #fdb634,
+    700 : #fcad2c,
+    800 : #fca525,
+    900 : #fc9718,
+    A100 : #ffffff,
+    A200 : #fffdfa,
+    A400 : #ffe4c7,
+    A700 : #ffd8ad,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+
+$green-secure-FE-primary: mat-palette($md-greensecuretheme);
+$green-secure-FE-accent: mat-palette($md-mcgpalette0);
+// The warn palette is optional (defaults to red).
+$green-secure-FE-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$green-secure-FE-theme: mat-light-theme($green-secure-FE-primary, $green-secure-FE-accent, $green-secure-FE-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($green-secure-FE-theme);
+
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+    box-sizing: border-box;
+}
