@@ -1,0 +1,45 @@
+$primary-color: #34c88a;
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 100px 100px;
+}
+.text-area {
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.heading-area {
+    background: url('../../../../../../assets/slicing/circle.png');
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    .heading {
+        font-size: 3rem;
+        color: rgb(68, 68, 68);
+    }
+    p {
+        color: grey;
+    }
+}
+.type-area {
+    display: flex;
+    flex-flow: row wrap;
+}
+.type {
+    flex: 0 1 50%;
+    padding: 30px;
+    flex-flow: column nowrap;
+    fa-icon {
+        color: $primary-color;
+    }
+    .text-area {
+        h2 {
+            margin-bottom: 0px;
+        }
+        p{
+            color: grey;
+        }
+    }
+}
