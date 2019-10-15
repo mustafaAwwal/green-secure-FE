@@ -1,6 +1,8 @@
 $primary-color: #34c88a;
 .background-container {
-    background-color: #34c88a;
+    background:url('../../../../../../assets/slicing/infosecfourbackground.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .flex-container {
     display: flex;
@@ -32,7 +34,7 @@ $primary-color: #34c88a;
 
 }
 .category-icon {
-    
+    background-color: $primary-color;
     .img-wrapper {
         border-radius: 50%;
         box-shadow: 0 0 25px rgba(139, 139, 139, 0.281);

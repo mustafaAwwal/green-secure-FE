@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1020" style="enable-background:new 0 0 1920 1020;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.39;fill:#34C88A;}
+	.st1{fill:#34C88A;}
+	.st2{fill:none;}
+</style>
+<path class="st0" d="M681,604c0,110.6-30.1,214.2-82.7,303H0V502h1L2.3,13.7C29.3,9.9,56.9,8,85,8c205.5,0,386.8,104,493.9,262.3
+	C643.4,365.5,681,480.4,681,604z"/>
+<g>
+	<path class="st1" d="M2.8,615c-0.6,0.4-1.2,0.8-1.8,1.3c-0.4,0.3-0.7,0.5-1,0.7v-2H2.8z"/>
+</g>
+<g>
+	<path class="st1" d="M1920,615v0.6c-0.3-0.2-0.5-0.4-0.8-0.6H1920z"/>
+</g>
+<g>
+	<path class="st1" d="M1920,681.8V1020H0V683c0.3-0.2,0.7-0.4,1-0.6c0.6-0.4,1.2-0.7,1.8-1.1C151.6,592,350.7,524,578.9,487.6
+		C699.3,468.4,827.7,458,961,458c386.1,0,731,87,958.2,223.3C1919.5,681.5,1919.7,681.6,1920,681.8z"/>
+</g>
+<polyline class="st2" points="2.3,126.7 1,615 1,616.3 0,1020 "/>
+<polyline class="st2" points="0,1020 598.3,1020 1920,1020 "/>
+</svg>
